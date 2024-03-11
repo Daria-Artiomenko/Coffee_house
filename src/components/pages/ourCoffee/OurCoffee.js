@@ -1,6 +1,6 @@
 import AboutBeans from "../../aboutBeans/AboutBeans";
 import Header from "../../header/Header";
-import Footer from "../../footer/Footer";
+
 import CoffeeFilter from "../../coffeeFilter/CoffeeFilter";
 import './ourCoffee.scss';
 
@@ -14,7 +14,7 @@ const OurCoffee = (props) => {
             </div>
             <AboutBeans/>
             <CoffeeFilter data={props.data}/>
-            {/* <Footer/> */}
+
         </>
     )
 }

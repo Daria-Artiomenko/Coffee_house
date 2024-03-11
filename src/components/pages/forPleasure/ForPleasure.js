@@ -1,6 +1,5 @@
 import AboutGoods from "../../aboutGoods/AboutGoods";
 import CoffeeList from "../../coffeeList/CoffeeList";
-import Footer from "../../footer/Footer";
 import Header from "../../header/Header";
 
 
@@ -14,7 +13,6 @@ const ForPleasure = (props) => {
             </div>
             <AboutGoods/>
             <CoffeeList data={props.data}/>
-            {/* <Footer/> */}
         </>
     )
 }
