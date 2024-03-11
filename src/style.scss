@@ -1,0 +1,21 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: "Merienda", cursive;
+}

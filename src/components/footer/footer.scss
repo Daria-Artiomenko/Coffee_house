@@ -1,0 +1,26 @@
+
+.footer {
+    min-height: 150px;
+    padding-top: 30px;
+    max-width: 1140px;
+    margin: 0 auto;
+    .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        a {
+            margin-right: 40px;
+            font-weight: 400;
+            font-size: 12px;
+            color: #000;
+        }
+    }
+    .coffee {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+
+

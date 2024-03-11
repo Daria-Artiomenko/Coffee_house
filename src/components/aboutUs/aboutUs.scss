@@ -1,0 +1,12 @@
+.about {
+    text-align: center;
+    min-height: 520px;
+    padding-top: 80px;
+    img {
+        margin-top: 20px;
+    }
+    &_text {
+        max-width: 590px;
+        margin: 40px auto 40px auto;
+    }
+}

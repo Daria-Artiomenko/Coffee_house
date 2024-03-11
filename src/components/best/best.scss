@@ -1,0 +1,48 @@
+.best {
+    min-height: 495px;
+    padding-top: 80px;
+    background: url('../../assets/our_best_bg.jpg') center (center/cover) no-repeat;
+    .subtitle {
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        color: #000;
+    }
+    &-list {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+    }
+    &_item {
+        border-radius: 8px;
+        width: 220px;
+        height: 240px;
+        background: rgba(255, 255, 255, 0.65);
+        padding-top: 22px;
+        text-align: center;
+        &:hover {
+            box-shadow: 5px 5px 35px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        &-img {
+            height: 115px;
+        }
+
+        &-name {
+            margin-top: 14px;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            color: #000;
+        }
+        &-price {
+            font-weight: 700;
+            font-size: 14px;
+            text-align: right;
+            color: #000;
+            margin-right: 20px;
+            margin-top: 10px;
+        }
+    }
+}

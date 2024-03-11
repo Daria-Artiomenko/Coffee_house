@@ -1,0 +1,54 @@
+.coffee_single-item {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    max-width: 900px;
+    margin: 0 auto;
+    &-about {
+        text-align: center;
+        .subtitle{
+            font-weight: 400;
+            font-size: 24px;
+            color: #000;
+            margin-bottom: 20px;
+        }
+        .back {
+            color: #000;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: left;
+        }
+    }
+    &-info{
+        text-align: left;
+        margin-top: 26px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 40px;
+        span {
+            font-weight: 700;
+        }
+    }
+    &-country {
+        margin-top: 25px;
+    }
+    &-descr {
+        margin-top: 16px;
+    }
+    &-price {
+        margin-top: 16px;
+        font-size: 24px;
+        .price {
+            font-size: 14px;
+        }
+    }
+
+    &-img {
+        width: 300px;
+        height: 280px;
+    }
+
+}
