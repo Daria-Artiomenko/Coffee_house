@@ -8,17 +8,9 @@ const AboutUs = () => {
             <h2>About Us</h2>
             <img src={img} alt="beans"/>
             <p className='about_text'>
-            Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
-            Afraid at highly months do things on at. Situation recommend objection do intention
-            so questions. As greatly removed calling pleased improve an. Last ask him cold feel
-            met spot shy want. Children me laughing we prospect answered followed. At it went
-            is song that held help face.<br/><br/>
+            Imagine a company that is fueled by the passion for coffee and dedicated to delivering a unique taste and cozy atmosphere with every cup. Welcome to "Coffee house" - where buying coffee is not just a transaction, but a journey into the world of exquisite flavors and aromas.<br/><br/>
 
-            Now residence dashwoods she excellent you. Shade being under his bed her, Much
-            read on as draw. Blessing for ignorant exercise any yourself unpacked. Pleasant
-            horrible but confined day end marriage. Eagerness furniture set preserved far
-            recommend. Did even but nor are most gave hope. Secure active living depend son
-            repair day ladies now.
+            "Coffee house" is more than a company; it's a lifestyle, a philosophy of morning awakenings and evening conversations. We believe that every cup of coffee can symbolize the beginning of something beautiful and inspire great achievements. Immerse yourself in the world of true coffee art with us!
             </p>
         </section>
     )
